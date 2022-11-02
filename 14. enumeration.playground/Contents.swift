@@ -71,7 +71,7 @@ enum School: String{
 
 print("school middle rawValue is : \(School.middle.rawValue)")
 //School.middle.rawValue = "중딩" // enum 내 case는 불변
-print("school middle rawValue is : \(School.university.rawValue)") //값 미지정시 case명 그대로를 가져온다 school middle rawValue is : university
+print("school university rawValue is : \(School.university.rawValue)") //값 미지정시 case명 그대로를 가져온다 school university rawValue is : university
 
 
 

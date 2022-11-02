@@ -83,6 +83,7 @@ class Student {
 
 
 Student.introduce() // 학생입니다만
+Student.init().introduce() // 저는 unknown입니다 Swift를 공부해요
 
 var gglee: Student = Student()
 gglee.name = "gglee"

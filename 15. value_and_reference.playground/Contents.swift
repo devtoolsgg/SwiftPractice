@@ -37,6 +37,8 @@ var secondClassReference = firstClassReference
 // 두 인스턴스 중 하나의 프로퍼티에 접근만 하면 클래스 내 모든 값이 바뀐다
 firstClassReference.property = 2
 secondClassReference.property = 3
+
+print("origin class property : \(firstClassReference.property)")
 print("first class instance property : \(firstClassReference.property)") // 3
 print("second class instance property : \(secondClassReference.property)") // 3
 

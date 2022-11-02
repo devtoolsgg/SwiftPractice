@@ -75,12 +75,13 @@ struct Student {
 
 
 Student.introduce() // 학생입니다만
+Student.init(name: "sam", language: "python").introduce() // 저는 sam입니다 python를 공부해요
+
 
 var gglee: Student = Student()
 gglee.name = "gglee"
 gglee.language = "서위프트"
 gglee.introduce() // 저는gglee입니다 서위프트를 공부해요
-
 
 let metamong: Student = Student()
 // metamong.name = "메타몽" // 변경불가
